@@ -10,6 +10,11 @@ int main(){
 int num1 = 12;
 int num2 = 3;
 
+int resta(int a, int b){
+return a-b;
+}
+
+
 int op1 = suma(num1,num2);
 printf("%i",op1);
 int op2 = resta(num1,num2);
